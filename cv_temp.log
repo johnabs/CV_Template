@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  6 JUL 2018 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  4 DEC 2018 09:21
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv_temp.tex
 (./cv_temp.tex
@@ -210,6 +209,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (57.20598pt too wide) in paragraph at lines 33--40
+[] 
+ []
+
+
 Overfull \hbox (24.02737pt too wide) in paragraph at lines 43--50
 [][]  
  []
@@ -235,7 +239,7 @@ Here is how much of TeX's memory you used:
  5928 multiletter control sequences out of 15000+600000
  7571 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,11n,35p,289b,140s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,11n,35p,241b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -243,7 +247,7 @@ cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 mr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam10.pfb>
-Output written on cv_temp.pdf (1 page, 84541 bytes).
+Output written on cv_temp.pdf (1 page, 78958 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
