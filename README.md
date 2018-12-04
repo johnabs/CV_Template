@@ -1,1 +1,3 @@
 # CV_Template
+
+ This is a LaTeX based template for generating a CV based on a really handy guide by Jean-luc Doumont (although I can no longer find the appropriate link). I really liked the template, so I decided to make a clone as close to his as possible. I am not a master of LaTeX by any means, and was unable to implement a number of practices he uses (including his Quantum Space suggestions, mentioned here http://www.principiae.be/pdfs/TUG-X-004-slideshow.pdf ). However, the formatting and color pallette are correct thus far. It's just not as elegant as his method in the implementation, which I will attempt to fix when I get the chance to delve into it more. In the mean time, I do hope it is useful to others.
