@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\geometry{top=1in,bottom=0.75in, left=0.75in, right=0.75in}
+\usepackage{xcolor}
+\definecolor{lucbullet}{RGB}{245,188,108}
+\usepackage{pifont}
+\newcommand{\bsquare}{\item[\color{lucbullet}\ding{110}]} 
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+\newcommand{\name}[1]{\huge #1 \doublespacing}
+\newcommand{\occupation}[1]{\vspace{0.125in}\large \textit{#1}}
+\newcommand{\infor}[4]{\singlespacing \vspace{-1.2in} \flushright #1 \\ #2\\ \vspace{0.1in} #3 \\ #4 \flushleft \onehalfspacing}
+\newcommand{\eduitem}[4]{#1 \hspace{10mm} & #2 & #3 \hspace{3mm} & #4}
+\newcommand*{\bluebullet}{\textcolor{lucbullet}{$\blacksquare$}}
+\newcommand{\tabitem}{~~\llap{\bluebullet}~~}
+\renewcommand{\section}[2]{\LARGE #1 \hspace{0.95in} \large #2 \normalsize \vspace{0.25in}}
+\begin{document}
+
+
+%%%%%%%Header information
+\name{Matthew Weed}
+
+\occupation{PhD in optics, with experience in public policy and leadership}
+\small
+\infor{4071 Photonics Dr}{Laserville, FL 32816}{+1(555)5321064}{mweed@creolo.ucf.edu}
+
+%%%%%%%%%%Education
+\normalsize
+\vspace{5mm}
+\begin{tabular}{l l l l}
+\eduitem{Dec 2012 (expected)}{PhD in optics}{GPA 3.72}{University of Central Florida}\\ 
+\eduitem{Dec 2009}{MS in optics}{GPA 3.78}{University of Central Florida}\\
+\eduitem{May 2007}{BS in physics}{GPA 3.89}{Rensselaer Polytechnic Institute}
+\end{tabular}
+\vspace{0.5in}
+%%%%%%%%%Research
+
+\section{Research}{University of Central Florida}
+
+\begin{tabular}[t]{l@{\hspace{1.1in}} m{0.75\textwidth}}
+	2007-present & As graduate research assistant to Dr. Winston V. Schoenfeld (CREOL), I currently\\
+	 	     & \tabitem design and simulate integrated photonic devices analytically and numerically,\\
+		     & \tabitem fabricate micro- and nanoscale semiconductor structures in clean rooms,\\ 
+		     & \tabitem image devices using optical, electron, and atomic-force microscopy,\\
+		     & \tabitem optically characterize microscale devices and thin films. 
+\end{tabular}
+
+\vspace{0.5in}
+
+\section{}{\hspace{0.95in}Rensselaer Polytechnic Institute}
+
+\begin{tabular}[t]{l@{\hspace{1.25in}} m{0.75\textwidth}}
+	2006-2007 & AS undergraduate research assistant to Dr. Peter Persans (Physics), I characterized thin film CIGS photovoltaic cells by photoreflectance modulation spectroscopy.\\
+	2003-2007 & In the Lally School of Management \& Technology, I completed 32 credit hours of coursework in management, economics, finance, and marketing.
+\end{tabular}
+
+\vspace{0.5in}
+
+\section{}{\hspace{0.95in}Kollmorgen Electro-Optical \small(Northhampton, MA)}
+
+\begin{tabular}[t]{l@{\hspace{1in}} m{0.65\textwidth}}
+	Summer 2006 & As a systems engineer co-op, I developed quantitative, image-resolution benchmarks across business units for naval periscopes. 
+\end{tabular}
+%%%%%%%%%Publications
+
+\vspace{0.5in}
+
+\section{Public Policy}{\hspace{-0.5in} The Optical Society \small (OSA)}
+\begin{tabular}[t]{l@{\hspace{1.25in}} m{0.75\textwidth}}
+	2012-2014 & As a member of the Public Policy committee, I guide the advocacy effort of the internation optics community, and I generate policy statements for immigration, natural resource management, and journal open access.\\
+	2012 & On the Harnessing Light II committee, I advise a joint \small OSA, SPIE, APS \normalsize and \small IEEE \normalsize team on the dissemination  of the National Academy of Science's report, Optics and Photonics: Essential Technologies for Our Nation. \\ 
+	2010-2012 & Under Federal Science Funding Advocacy, I establish and maintain relationships with House and Senate offices from Florida and Oregon to relay the importance of consistent federal funding of research and commercialization.
+\end{tabular}
+
+%%%%%%%%Technical Skills
+
+\end{document}
